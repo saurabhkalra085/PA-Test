@@ -4,6 +4,10 @@
 
 def filter_orders(order_ids):
     # TODO: Write your logic here
+    order_ids.sort(reverse=True)
+    for val in order_ids:
+        if (val % 2 == 0) and (val>100):
+            print(val, end=" ")
     pass
 
 # Test Case
