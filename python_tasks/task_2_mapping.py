@@ -4,6 +4,7 @@
 
 def count_categories(categories):
     # TODO: Write your logic here
+    signs = [k['sign'] for k in categories if k.get('sign')]
     pass
 
 # Test Case
