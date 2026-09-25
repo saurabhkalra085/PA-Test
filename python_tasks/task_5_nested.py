@@ -3,6 +3,7 @@
 
 def get_vehicle_year(data):
     # TODO: Write your logic here safely
+    print(data["year"])
     pass
 
 # Test Case
